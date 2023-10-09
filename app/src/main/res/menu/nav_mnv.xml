@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/qlysanpham"
+        android:title="Quản lý sản phẩm"
+        android:icon="@drawable/manage"/>
+    <item
+        android:id="@+id/gioithieu"
+        android:icon="@drawable/camera"
+        android:title="Giới thiệu"/>
+    <group android:checkableBehavior="single">
+        <item android:title="Khác">
+            <menu>
+                <item android:id="@+id/caidat"
+                    android:title="Cài đặt"
+                    android:icon="@drawable/settings"/>
+                <item
+                    android:id="@+id/logout"
+                    android:icon="@drawable/logout"
+                    android:title="Logout"/>
+
+            </menu>
+        </item>
+    </group>
+
+</menu>
